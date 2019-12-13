@@ -3,6 +3,10 @@ uuid = "39d212e8-880e-4b0d-bd63-f97b48e5fcb1"
 authors = ["Vasilis Alexandridis", "Maarten Pronk"]
 version = "0.1.0"
 
+[deps]
+LazIO = "c3605908-9f0f-11e8-0a72-0d361c15a277"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
 [compat]
 julia = "1.1"
 
