@@ -1,6 +1,3 @@
-using LazIO
-using ProgressMeter
-
 module RefractionCorrection
 
 include("utils.jl")

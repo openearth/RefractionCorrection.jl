@@ -4,11 +4,11 @@ using Documenter
 makedocs(;
     modules=[RefractionCorrection],
     authors="Vasilis Alexandridis, Maarten Pronk",
-    repo="https://github.com/evetion/RefractionCorrection.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/openearth/RefractionCorrection.jl/blob/{commit}{path}#L{line}",
     sitename="RefractionCorrection.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://evetion.github.io/RefractionCorrection.jl",
+        canonical="https://openearth.github.io/RefractionCorrection.jl",
         assets=String[],
     ),
     pages=[
@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/evetion/RefractionCorrection.jl",
+    repo="github.com/openearth/RefractionCorrection.jl",
 )
